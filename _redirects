@@ -1,4 +1,4 @@
 /private/*          200!    Role=administrator
-/private/*    /	    401!
+/private/*    /	    301!
 
 /redir /
