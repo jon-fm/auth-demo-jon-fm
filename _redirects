@@ -1,2 +1,2 @@
-/private			    200!	Role=admin
-/private	/	401!
+/private/*			    200!	Role=admin
+/private/*	/	401!
