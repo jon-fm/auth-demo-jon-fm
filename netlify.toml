@@ -1,5 +1,7 @@
 [build]
-  # command = "npm run build" # no command because all static html front-end
+  # Per https://community.netlify.com/t/functions-wont-deploy-function-is-not-valid-for-deployment/17902/2
+  # even if the site is a fully static front-end, if you're using Functions, you need a build command.
+  command = "#"
   functions = "serverless"
   publish = "public"
 
