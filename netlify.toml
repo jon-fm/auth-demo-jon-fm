@@ -2,3 +2,5 @@
   # command = "npm run build" # no command because all static html front-end
   functions = "serverless"
   publish = "public"
+
+# Redirects must live in the publish folder; _redirects file is there
