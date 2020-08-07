@@ -1,4 +1,10 @@
-/private/*          200!    Role=administrator
-/private/*    /	    301!
+# Two-step route-based protection by role
+/admin/*          200!    Role=administrator
+/admin/*    /	    301!
 
-/redir /
+# Two-step route-based protection by role
+/members/*          200!    Role=administrator,member
+/members/*    /	    301!
+
+# Force traffic to assigned domain
+https://auth-jon-fm.netlify.app/* https://auth.demo.jon.fm/:splat 301!
