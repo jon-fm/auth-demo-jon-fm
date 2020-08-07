@@ -5,6 +5,11 @@
   <title>Homepage</title>
 
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    .with-space {
+      padding: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -12,16 +17,16 @@
 
   <div data-netlify-identity-button>Login with Netlify Identity</div>
   <h1>This is the homepage</h1>
-  <div>
+  <div class="with-space">
     <a href="/members/">To Members</a>
   </div>
-  <div>
+  <div class="with-space">
     <a href="/admin/">To Admin</a>
   </div>
-  <div>
+  <div class="with-space">
     Signing up automatically makes you a member
   </div>
-  <div>
+  <div class="with-space">
     For admin access, use auth.demo.jon.fm.admin@jon.fm & Passw0rd!
   </div>
 </body>
