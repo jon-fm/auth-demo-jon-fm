@@ -4,6 +4,8 @@
 
 This project is a micro-demo that gives a tangible, working example of Netlify Auth for use wth gating content to special users. Publicly available and open for folks to sign up on and try themselves.
 
+**This demo is for 'pure static' sites - where each page a user loads warrants a full window reload and request to a file on the server. For an example using a PWA framework that XHR's new pages and shims in content, the process is different. See [my other repo](https://github.com/jon-fm/gatsby-auth-demo-jon-fm) for an example.**
+
 Features:
 
 - Multiple user tiers with split access control
